@@ -1,0 +1,95 @@
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+
+BasedOnStyle: WebKit
+AccessModifierOffset: 0
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: true
+AlignOperands: true
+AlignTrailingComments: true
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Inline #All
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: true
+BinPackArguments: true
+BinPackParameters: true
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeInheritanceComma: false
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterNamespace: true
+  AfterClass: true
+  AfterEnum: false
+  AfterStruct: true
+  AfterUnion: true
+#  AfterExternBlock: true
+  AfterFunction: true
+  AfterControlStatement: false
+  BeforeCatch: false
+  BeforeElse: false
+  IndentBraces: false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: false
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeComma
+BreakStringLiterals: false
+ContinuationIndentWidth: 4
+IndentCaseLabels: false
+IndentWidth: 4
+IndentWrappedFunctionNames: false
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
+ReflowComments: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: false
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 2
+SpacesInContainerLiterals: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+TabWidth: 4
+UseTab: Never
+
+#######################################################################################
+Language: Cpp
+AlignEscapedNewlines: Right
+AlwaysBreakTemplateDeclarations: true
+CompactNamespaces: false
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+ConstructorInitializerIndentWidth: 4
+Cpp11BracedListStyle: true
+DerivePointerAlignment: false
+FixNamespaceComments: true
+SortIncludes: true
+#IncludeBlocks: Regroup
+#IncludeCategories:
+#  - Regex:           'stdafx/'
+#    Priority:        -1
+#  - Regex:           '</'
+#    Priority:        2
+#  - Regex:           '(\.\.).?(\/)/'
+#    Priority:        3
+#  - Regex:           '\"/'
+#    Priority:        4
+#IndentPPDirectives: AfterHash
+NamespaceIndentation: Inner
+PointerAlignment: Middle
+SortUsingDeclarations: true
+SpaceAfterCStyleCast: false
+SpaceAfterTemplateKeyword: false
+#SpaceBeforeCtorInitializerColon: false
+#SpaceBeforeInheritanceColon: false
+#SpaceBeforeRangeBasedForLoopColon: false
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+Standard: Cpp11
+
+######################################################################################
+#Language: JavaScript
+#JavaScriptQuotes: Leave
+#JavaScriptWrapImports: true
+#UseTab: ForContinuationAndIndentation
